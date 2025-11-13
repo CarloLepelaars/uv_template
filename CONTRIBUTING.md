@@ -33,6 +33,10 @@ uv run ruff format
 uv run ruff check
 uv run pytest -s
 ```
+or simply run:
+```bash
+bash quality.sh
+```
 
 ### Pull Requests
 - Keep PRs focused on a single change
