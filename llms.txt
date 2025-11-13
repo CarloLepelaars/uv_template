@@ -1,0 +1,3 @@
+# project
+
+llms.txt gives information for the LLM to work with.

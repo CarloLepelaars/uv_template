@@ -1,0 +1,34 @@
+[project]
+name = "template"
+version = "0.1.0"
+description = "Template for UV projects"
+readme = "README.md"
+authors = [
+    {name = "Carlo Lepelaars", email = "info@carlolepelaars.nl"},
+]
+license = {text = "MIT License"}
+requires-python = ">=3.10,<4"
+
+dependencies = [
+    "fastcore>=1.8.7",
+]
+
+[project.optional-dependencies]
+dev = [
+    "ruff>=0.12.7",
+    "mkdocs>=1.4.2",
+    "python-dotenv>=1.1.1",
+    "mkdocs-material>=8.5.11",
+    "mkdocstrings-python>=1.7.1",
+    "pytest>=7.2.0",
+    "griffe>=0.36.4",
+    "ipython>=8.37.0",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
