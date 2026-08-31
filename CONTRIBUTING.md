@@ -3,10 +3,10 @@ Info on contributing to this project.
 ## Getting Started
 
 1. Fork the repository
-2. Clone your fork and install in development mode. Preferable use `uv` to manage dependencies:
+2. Clone your fork and install in development mode. Preferably use `uv` to manage dependencies:
 ```bash
-git clone https://github.com/carlolepelaars/template.git
-cd irouter
+git clone https://github.com/CarloLepelaars/uv_template.git
+cd uv_template
 pip install uv
 uv sync --all-extras
 uv pip install -e .
