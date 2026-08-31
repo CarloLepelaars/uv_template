@@ -1,13 +1,12 @@
 # uv_template
 
-![PyPI version](https://img.shields.io/pypi/v/blablablablabla)
-![PyPI Downloads](https://static.pepy.tech/badge/blablablablabla)
-![Python Version](https://img.shields.io/badge/dynamic/toml?url=https://raw.githubusercontent.com/carlolepelaars/blablablablabla/master/pyproject.toml&query=%24.project%5B%22requires-python%22%5D&label=python&color=blue) 
+![PyPI version](https://img.shields.io/pypi/v/myproject)
+![PyPI Downloads](https://static.pepy.tech/badge/myproject)
+![Python Version](https://img.shields.io/badge/dynamic/toml?url=https://raw.githubusercontent.com/carlolepelaars/myproject/master/pyproject.toml&query=%24.project%5B%22requires-python%22%5D&label=python&color=blue) 
 [![uv](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/uv/main/assets/badge/v0.json)](https://github.com/astral-sh/uv)
 [![Ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
 
 Template Repo for building libraries with UV. Fork this repo to start a new project.
-
 
 ## Installation
 
